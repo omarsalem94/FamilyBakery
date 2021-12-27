@@ -1,0 +1,548 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.home_section {         
+    background-image: url(../img/cover.jpg);
+    background-size: cover;
+    background-position: center center;
+    opacity: 1;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home_section .text-home {
+    color: rgba(255,255,255, .92);
+    text-align: center;
+    width: 70%;
+    margin: 250px auto;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+}
+
+.home_section .text-home h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+
+}
+
+.home_section .text-home h1 {
+    font-size: 76px;
+    margin-bottom: 18px;
+}
+
+.home_section .text-home p {
+    font-size: 24px;
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+
+.home_section .text-home .btn {
+    border: 2px solid transparent;
+    padding: 20px 28px;
+    font-weight: 700;
+    margin-right: 12px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+
+.home_section .text-home .btn-1 {
+    background-color: #8e7754;
+    transition: all 0.2s ease-in-out;
+}
+
+.home_section .text-home .btn-1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+.home_section .text-home .btn-2 {
+    background-color: transparent;
+    border-color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.home_section .text-home .btn-2:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.body_section {
+    padding: 40px 40px;
+    overflow: hidden;
+}
+
+.body_section .we_are {
+    width: 80%;
+    margin: auto;
+}
+
+.body_section .we_are .img-we {
+    width: 50%;
+    float: left;
+}
+
+.body_section .we_are .text-we {
+    width: 50%;
+    float: left;
+    padding-left: 25px;
+}
+
+.body_section .we_are .img-we img {
+    padding-right: 50px;
+}
+
+.body_section .we_are .text-we h2 {
+    font-size: 32px;
+    font-family: 'Alegreya SC', serif;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.body_section .we_are .text-we p {
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+.body_section .we_are .text-we li {
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+
+.body_section-2 {
+    padding: 40px 40px;
+    background: #f8f8f8;
+    overflow: hidden;    
+}
+
+.body_section-2 .location {
+    width: 80%;
+    margin: auto;
+}
+
+.body_section-2 .location .loc-text {
+    width: 50%;
+    float: left;
+    padding-right: 50px;
+    
+}
+
+.body_section-2 .location .loc-img {
+    width: 50%;
+    float: left;
+    padding: 0 0 0 20px;
+}
+
+.body_section-2 .location .loc-text h2 {
+    font-size: 32px;
+    font-family: 'Alegreya SC', serif;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+
+.body_section-2 .location .loc-text p {
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    color: rgb(153, 153, 153);
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+
+.body_section-3 {
+    padding: 40px 40px;
+    overflow: hidden;
+}
+
+.body_section-3 .baking-head {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: "Alegreya";
+}
+
+.body_section-3 .baking-head .head-bake h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.body_section-3 .baking-head .head-bake p {
+    font-size: 17px;
+    color: #888;
+    margin-bottom: 50px;
+}
+
+.body_section-3 .baking-pic {
+    margin: auto;
+    width: 90%;
+}
+
+.body_section-3 .baking-pic .pic-1 {
+    width: 32%;
+    float: left;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Alegreya";
+
+}
+
+.body_section-3 .baking-pic .pic-1 h3 {
+    font-size: 22px;
+    padding: 20px 0;
+    color: #303030;
+
+}
+
+.body_section-3 .baking-pic .pic-1 p {
+    line-height: 1.86em;
+    color:#686868;
+    font-size: 17px;
+}
+
+.body_section-4 {
+    padding: 40px 40px;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.body_section-4 .contact {
+    margin: auto;
+    width: 90%;
+}
+
+.body_section-4 .contact .cont-text {
+    width: 48%;
+    float: left;
+    padding-right: 60px;
+}
+
+.body_section-4 .contact .cont-text .iframe {
+    width: 800px;
+    height: 500px;
+    float: left;
+    padding-right: 60px;
+}
+
+
+.body_section-4 .contact .cont-text h2 {
+    font-family: "Alegreya";
+    font-size: 32px;
+    color: #303030;
+    line-height: 1.38em;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.body_section-4 .contact .cont-text p {
+    line-height: 1.86em;
+    font-family: "Alegreya Sans";
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 20px;
+}
+
+.body_section-4 .contact .cont-text li {
+    margin-bottom: 35px;
+    margin-left: 35px;
+}
+
+
+.footer-1 {
+    padding: 40px 40px;
+    overflow: hidden;
+    background-color: #403d38;
+    width: 100%;
+    margin: auto;
+}
+
+.footer-1 .parent {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+
+.footer-1 .parent .text-foot {
+    width: 25%;
+    float: left;
+    margin: auto;
+
+}
+
+.footer-1 .parent .text-foot h5 {
+    font-size: 18px;
+    font-family: "Alegreya";
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+
+.footer-1 .parent .text-foot  {
+    color: #969696;
+    font-size: 16px;
+    line-height: 1.86em;
+    margin-bottom: 25px;
+    opacity: 1;
+    visibility: visible;
+    padding-right: 25px;
+    font-family: "Alegreya"
+}
+
+
+.footer-2 {
+    background-color: #353330;
+    padding: 40px 40px;
+    overflow: hidden;
+}
+
+
+.footer-2 .parent-2 {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    color: #777;
+}
+
+.footer-2 .parent-2 .logo {
+    width: 100%;
+    float: left;
+    margin: auto;
+    padding-bottom: 20px; 
+}
+
+.footer-2 .parent-2 .logo p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+/*1024,768,600*/
+
+@media (max-width:1024px) {
+
+    .body_section {
+        padding: 50px 5px;
+    }
+
+    .body_section .we_are .img-we img {
+        padding-top: 100px;
+    }
+
+    .body_section .we_are .text-we {
+    padding-left: 15px;
+    padding-right: 15px;   
+    }
+
+    .body_section-2 {
+        padding: 50px 5px;
+    }
+
+    .body_section-2 .location .loc-text {
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+    
+    .body_section-2 .location .loc-img {
+        padding-top: 100px;
+    }
+
+    .body_section-3 {
+        padding: 50px 5px;
+    }
+
+    .body_section-3 .baking-pic .pic-1 {
+        padding: 10px;
+    }
+
+    .body_section-4 {
+        padding: 50px 5px;
+    }
+
+    .body_section-4 .contact .cont-text {
+        padding-right: 20px;
+    }
+
+    .body_section-4 .contact .cont-text .iframe {
+        width: 500px;
+        height: 400px;
+    }
+
+    .footer-1 {
+        padding: 50px 5px;
+    }
+
+}
+    
+@media (max-width:768px) {
+
+    .body_section {
+        padding: 50px 5px;
+    }
+
+    .body_section .we_are .img-we img {
+        padding-top: 100px;
+    }
+
+    .body_section .we_are .text-we {
+    padding-left: 15px;
+    padding-right: 15px;   
+    }
+
+    .body_section-2 {
+        padding: 50px 5px;
+    }
+
+    .body_section-2 .location .loc-text {
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+    
+    .body_section-2 .location .loc-img {
+        padding-top: 100px;
+    }
+
+    .body_section-3 {
+        padding: 50px 5px;
+    }
+
+    .body_section-3 .baking-pic .pic-1 {
+        padding: 10px;
+        width: 45%;
+    }
+
+    .body_section-4 {
+        padding: 50px 5px;
+    }
+
+    .body_section-4 .contact .cont-text {
+        padding-right: 20px;
+    }
+
+    .body_section-4 .contact .cont-text .iframe {
+        width: 400px;
+        height: 400px;
+    }
+
+    .footer-1 {
+        padding: 50px 5px;
+    }
+
+}    
+
+
+@media (max-width:600px) {
+
+    .body_section {
+        padding: 80px 5px;
+    }
+
+    .body_section-2 {
+        padding: 80px 5px;  
+    }
+
+    .body_section-3 {
+        padding: 80px 5px;
+    }
+
+    .body_section-4 {
+        padding: 80px 5px;
+    }
+
+    .footer-1 {
+        padding: 80px 5px;
+    }
+
+    .footer-2 {
+        padding: 80px 5px;
+    }
+
+    .home_section {
+        background-size: 100% 100%;
+    }
+
+    .home_section .text-home {
+        width: 100%;
+        margin: 150px auto;
+    }
+
+    .home_section .text-home h1 {
+        font-size: 36px;
+    }
+
+    .home_section .text-home h4 {
+        font-size: 12px;
+    }
+
+    .home_section .text-home p {
+        font-size: 14px;
+    }
+
+    .home_section .text-home .btn {
+        font-size: 12px;
+    }
+
+    .body_section .we_are .img-we {
+        width: 100%;
+    }
+
+    .body_section .we_are .text-we {
+        width: 100%;
+    }
+
+    .body_section .we_are .text-we .list-1 {
+        font-size: 12px;
+    }
+
+    .body_section-2 .location .loc-text {
+        width: 100%;
+    }
+
+    .body_section-2 .location .loc-img {
+        width: 100%;
+    }
+
+    .body_section-3 .baking-pic .pic-1 {
+        width: 100%;
+    }
+
+    .body_section-4 .contact .cont-text {
+        width: 100%;
+    }
+
+    .body_section-4 .contact .cont-text .iframe {
+        width: 100%;
+    }
+
+    .footer-1 .parent .text-foot {
+        width: 100%;
+    }
+
+    .footer-2 .parent-2 {
+        width: 50%;
+    }
+}
